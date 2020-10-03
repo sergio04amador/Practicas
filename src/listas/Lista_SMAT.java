@@ -10,7 +10,7 @@ package listas;
  * @author sergi
  */
 public class Lista_SMAT {
-    private Nodo primero;
+    Nodo primero;
             public Lista_SMAT()
             {
              primero = null;   

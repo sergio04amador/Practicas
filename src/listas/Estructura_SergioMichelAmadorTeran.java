@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package listas;
-
+import java.util.*;
 import java.util.Scanner;
 
 /**
@@ -18,7 +18,7 @@ public class Estructura_SergioMichelAmadorTeran {
      */
     
     public static void main(final String[] args) throws Exception {
-        int opcion;
+       int opcion;
     Scanner teclado=new Scanner(System.in);
     Lista_SMAT lista=new Lista_SMAT();
     System.out.println("Lista simple Enlazada");
@@ -67,7 +67,7 @@ public class Estructura_SergioMichelAmadorTeran {
             
     }
     }while(opcion!=9);
-    teclado.close();
+    teclado.close();  
     }
     }
     
