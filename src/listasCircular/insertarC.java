@@ -34,7 +34,7 @@ public class insertarC {
                     break;
                 case 2:
                     System.out.println("Elementos de la lista: ");
-                    listaC.recorrer();
+                    listaC.visualizar();
                     System.out.println("");
                     break;
                 case 3:

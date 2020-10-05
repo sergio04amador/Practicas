@@ -29,7 +29,7 @@ public class ListaCircular_SMAT {
         lc = nuevo;
         return this;
     }
-    public void recorrer()
+    public void visualizar()
     {
         Nodo p;
         if (lc != null)
