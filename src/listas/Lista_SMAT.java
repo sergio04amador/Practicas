@@ -11,6 +11,7 @@ package listas;
  */
 public class Lista_SMAT {
     Nodo primero;
+    int numeros = 0;
             public Lista_SMAT()
             {
              primero = null;   
@@ -145,9 +146,60 @@ public class Lista_SMAT {
             
             }
            public void contador(){
-               
+               for(int x=0; x<=primero.getDato(); x++)
+               {
+                   numeros++;
+               }
+               System.out.println("El numero de elementos es: " +numeros);
             }
             }
    
                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

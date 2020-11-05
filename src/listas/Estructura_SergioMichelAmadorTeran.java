@@ -64,7 +64,7 @@ public class Estructura_SergioMichelAmadorTeran {
             break;
         case 8:
             lista.contador();
-            
+            break;
     }
     }while(opcion!=9);
     teclado.close();  
